@@ -1,5 +1,5 @@
 general:
-  build_dir: app2
+  build_dir: test
 
 test:
  post:
