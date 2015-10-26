@@ -1,5 +1,6 @@
 test:
  override:
+   - cabal test
    timeout: 300
  post:
    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
