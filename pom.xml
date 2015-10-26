@@ -218,6 +218,9 @@ CSV files of various types.
   </build>
 
   <reporting>
+     
+    <plugins>
+      <!-- Keep in sync with build config above -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
@@ -226,8 +229,6 @@ CSV files of various types.
           <outputDirectory>${basedir}/target/site</outputDirectory>
         </configuration>
       </plugin>
-    <plugins>
-      <!-- Keep in sync with build config above -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
